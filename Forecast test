@@ -1,0 +1,54 @@
+id: eOlnee7_pkCgJMO1wAgPew
+projectId: VgCKwk5ni0mrO8Ujsd9vpg
+projectName: Mobile Automation Project
+created: 2021-10-27T16:29:01.6724930Z
+protocol: 1
+tests:
+- id: 0nRp79PXlEq8VO-zx9SSfg
+  name: Forecast test
+  description: ''
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 0.1
+  creationDate: 2021-10-27T16:29:01.0000000
+  modificationDate: 2021-10-27T16:29:01.0000000
+  settings:
+    automationAssistant: true
+    appId: M1pwzJTQn0a4bUCpstjg8A
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: M1pwzJTQn0a4bUCpstjg8A
+    name: clari1020
+    platform: iOS
+    hash: d62a15f06ebdf662d553df568893a091
+  steps:
+  - id: H1QiZrtLJ0yvmOWZ-9BmEA
+    comments: Clear application data and restart (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 1b89acc3-5003-4ae6-a8c1-c1732e09ef45
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements: []
+projectParameters: []
+addons: []
