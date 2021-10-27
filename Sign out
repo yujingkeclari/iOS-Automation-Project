@@ -1,0 +1,148 @@
+id: luKuccZ840iBv353bOXSvA
+projectId: VgCKwk5ni0mrO8Ujsd9vpg
+projectName: My first Project
+created: 2021-10-27T15:48:12.8510801Z
+protocol: 1
+tests:
+- id: tUX8tFyeR0iBzVQoWNiNTA
+  name: Sign out
+  description: This test was auto generated from steps of the 'Dashboard test' test
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 1.0
+  creationDate: 2021-10-27T15:26:51.0000000
+  modificationDate: 2021-10-27T15:26:51.0000000
+  settings:
+    automationAssistant: true
+    appId: M1pwzJTQn0a4bUCpstjg8A
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: M1pwzJTQn0a4bUCpstjg8A
+    name: clari1020
+    platform: iOS
+    hash: d62a15f06ebdf662d553df568893a091
+  steps:
+  - id: zoTC64TKGUaeubX-9QsH8w
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: EGRFFIbeg0G5_oxLa9UPIw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3ZedLdhbM0GEh3O8c6N6ZQ
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: omWOxc5lcEaTO8xsR90jQQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: coaNyn5Y2Uigc5BqRL-ocA
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: RNclnr0OVU6GCZJDvEsI1w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: RNclnr0OVU6GCZJDvEsI1w
+  name: Yes
+  type:
+    id: jUwODgyNjAyNzk2NTk3NjY
+    name: XCUIElementTypeButton
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: Yes
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeButton' AND label == 'Yes' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[3]/XCUIElementTypeAlert[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]
+    priority: 3
+- id: EGRFFIbeg0G5_oxLa9UPIw
+  name: icon settings
+  type:
+    id: jUwODgyNjAyNzk2NTk3NjY
+    name: XCUIElementTypeButton
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: icon settings
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeButton' AND label == 'icon settings' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeNavigationBar/XCUIElementTypeButton[1]
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeNavigationBar[1]/XCUIElementTypeButton[1]
+    priority: 3
+- id: omWOxc5lcEaTO8xsR90jQQ
+  name: SignOutButton
+  type:
+    id: jUwODgyNjAyNzk2NTk3Njc
+    name: XCUIElementTypeCell
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: SignOutButton
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView/XCUIElementTypeCell[4]
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[4]
+    priority: 2
+projectParameters: []
+addons: []
