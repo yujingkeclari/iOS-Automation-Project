@@ -1,0 +1,54 @@
+id: 8IvoU7c8_0ySUhXpUHeUeg
+projectId: VgCKwk5ni0mrO8Ujsd9vpg
+projectName: My first Project
+created: 2021-10-27T15:48:13.2362467Z
+protocol: 1
+tests:
+- id: 57WvUO-VbkyGFvJuL6gJlw
+  name: android
+  description: ''
+  platform: Android
+  type: Mobile
+  driverType: Appium_Android
+  version: 0.1
+  creationDate: 2021-10-07T09:26:59.0000000
+  modificationDate: 2021-10-07T09:26:59.0000000
+  settings:
+    automationAssistant: true
+    appId: pOiavSSPnUilw9EUwcFWTQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: pOiavSSPnUilw9EUwcFWTQ
+    name: clari android apk
+    platform: Android
+    hash: 13c76ea4c4a2667209ad4364c4d9ad5e
+  steps:
+  - id: JVppXqmZjUOVe2T3byIYIg
+    comments: Clear application data and restart (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 1b89acc3-5003-4ae6-a8c1-c1732e09ef45
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements: []
+projectParameters: []
+addons: []
