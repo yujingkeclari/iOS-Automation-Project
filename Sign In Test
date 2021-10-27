@@ -1,7 +1,7 @@
-id: JB7keKVYkk2OFIMpcy6Hiw
+id: _5hOojWfk0mPFVIbTGTANQ
 projectId: VgCKwk5ni0mrO8Ujsd9vpg
-projectName: My first Project
-created: 2021-10-27T15:48:12.9765994Z
+projectName: Mobile Automation Project
+created: 2021-10-27T16:48:33.4208954Z
 protocol: 1
 tests:
 - id: qo1m4rGW7EWa6lr84ol-Sw
@@ -12,13 +12,13 @@ tests:
   driverType: Appium_iOS
   version: 0.1
   creationDate: 2021-09-24T07:05:16.0000000
-  modificationDate: 2021-10-27T09:49:48.0000000
+  modificationDate: 2021-10-27T16:48:33.0000000
   settings:
     automationAssistant: true
     deviceId: 1BF1C370-5AF6-4620-8996-583CAE9BD00A
     appId: _6iVqtvr4EmK52tPPWQwCQ
-    stepSleepTime: 500
-    stepTimeout: 15000
+    stepSleepTime: 1000
+    stepTimeout: 25000
     stepSleepTiming: Before
     stepFailureBehaviorType: Abort
     stepTakeScreenshotConditionType: Failure
