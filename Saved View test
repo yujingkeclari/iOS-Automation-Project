@@ -1,0 +1,54 @@
+id: 3ZkFtDiNgUKXStIt-G4xKg
+projectId: VgCKwk5ni0mrO8Ujsd9vpg
+projectName: Mobile Automation Project
+created: 2021-10-27T17:03:42.5724485Z
+protocol: 1
+tests:
+- id: RMPIBGm2w02v4F5OVdaOyw
+  name: Saved View test
+  description: ''
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 0.1
+  creationDate: 2021-10-27T17:03:42.0000000
+  modificationDate: 2021-10-27T17:03:42.0000000
+  settings:
+    automationAssistant: true
+    appId: M1pwzJTQn0a4bUCpstjg8A
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: M1pwzJTQn0a4bUCpstjg8A
+    name: clari1020
+    platform: iOS
+    hash: d62a15f06ebdf662d553df568893a091
+  steps:
+  - id: GUDxfJDe6kmgQtn5HbzZAA
+    comments: Clear application data and restart (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 1b89acc3-5003-4ae6-a8c1-c1732e09ef45
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements: []
+projectParameters: []
+addons: []
