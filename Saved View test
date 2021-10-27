@@ -1,7 +1,7 @@
-id: 3ZkFtDiNgUKXStIt-G4xKg
+id: Omnaojnum0OgmhLfhhHHXA
 projectId: VgCKwk5ni0mrO8Ujsd9vpg
 projectName: Mobile Automation Project
-created: 2021-10-27T17:03:42.5724485Z
+created: 2021-10-27T17:09:41.2869244Z
 protocol: 1
 tests:
 - id: RMPIBGm2w02v4F5OVdaOyw
@@ -12,9 +12,10 @@ tests:
   driverType: Appium_iOS
   version: 0.1
   creationDate: 2021-10-27T17:03:42.0000000
-  modificationDate: 2021-10-27T17:03:42.0000000
+  modificationDate: 2021-10-27T17:09:41.0000000
   settings:
     automationAssistant: true
+    deviceId: 3C9656A0-1755-4B8A-A9AB-E3A5151630B6
     appId: M1pwzJTQn0a4bUCpstjg8A
     stepSleepTime: 500
     stepTimeout: 15000
