@@ -1,7 +1,7 @@
-id: 2EWlSgLkjEa0oRWjr9xfIA
+id: BfpLK1jGHEiixQ_o8fyKDw
 projectId: VgCKwk5ni0mrO8Ujsd9vpg
 projectName: Mobile Automation Project
-created: 2021-12-02T08:40:44.2722944Z
+created: 2021-12-02T15:20:58.1915079Z
 protocol: 1
 tests:
 - id: 0nRp79PXlEq8VO-zx9SSfg
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_iOS
   version: 0.1
   creationDate: 2021-10-27T16:29:01.0000000
-  modificationDate: 2021-12-02T08:40:44.0000000
+  modificationDate: 2021-12-02T09:19:32.0000000
   settings:
     automationAssistant: true
     deviceId: 3C9656A0-1755-4B8A-A9AB-E3A5151630B6
@@ -95,7 +95,7 @@ tests:
     validations: []
     contexts: []
   - id: IQKY5mKj0EKl2aj_tUIZvQ
-    enabled: true
+    enabled: false
     invertResult: false
     order: 4
     repeat: 1
@@ -117,10 +117,33 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: NZd5i5toGEewUWxnT0dvZg
+  - id: KjxlIDiasEi6p9G6n4JGiA
     enabled: true
     invertResult: false
     order: 5
+    repeat: 1
+    type: Action
+    elementId: DzEdmoYJuUSTRy6DxAScjg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Accounts
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: NZd5i5toGEewUWxnT0dvZg
+    enabled: true
+    invertResult: false
+    order: 6
     repeat: 1
     type: Action
     elementId: CYeFM-9-VEGR4lwXOQwLxw
@@ -137,10 +160,37 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: jULjt9Y8mEmDsd1sOIygpA
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: kulgf0xPDU-eQxwXaBNHEQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 225caec3-3231-45d5-a3f3-c4c59b7ab385
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Output
+    conditions: []
+    validations:
+    - type: Equals
+      invert: false
+      field: text
+      value: '{{q42022text}}'
+    contexts: []
   - id: I8FqZsD4LUmKSlWyUywDDQ
     enabled: true
     invertResult: false
-    order: 6
+    order: 8
     repeat: 1
     type: Action
     elementId: gplu6T0pnEilmrvHUWALZg
@@ -158,9 +208,9 @@ tests:
     validations: []
     contexts: []
   - id: wG0p_EeooEOliurlTTBMWA
-    enabled: false
+    enabled: true
     invertResult: false
-    order: 7
+    order: 9
     repeat: 1
     type: Action
     elementId: k4VPti6wW0KYXbkl0cYatw
@@ -180,7 +230,7 @@ tests:
   - id: fk-mrR5ZzUmWqXLKo46VqQ
     enabled: false
     invertResult: false
-    order: 8
+    order: 10
     repeat: 1
     type: Action
     elementId: 1ZvgURVtPEO2dticqjgvQg
@@ -201,7 +251,7 @@ tests:
     comments: ''
     enabled: false
     invertResult: false
-    order: 9
+    order: 11
     repeat: 1
     type: Action
     elementId: AmQw8scogUSYpVXa5DICXw
@@ -224,7 +274,7 @@ tests:
   - id: AjoDXYbudEKBGMRegdfxPQ
     enabled: false
     invertResult: false
-    order: 10
+    order: 12
     repeat: 1
     type: Action
     elementId: 7i7sRAye_E6crhX9azi82w
@@ -244,7 +294,7 @@ tests:
   - id: jia3b1f190ueC2k_KVCQDA
     enabled: false
     invertResult: false
-    order: 11
+    order: 13
     repeat: 1
     type: Action
     elementId: HJHDu4NdrEODk8CbIjSLSw
@@ -264,7 +314,7 @@ tests:
   - id: ElbUIHDJHUiw4sNcqxVWGg
     enabled: true
     invertResult: false
-    order: 12
+    order: 14
     repeat: 1
     type: Action
     elementId: HJHDu4NdrEODk8CbIjSLSw
@@ -284,7 +334,7 @@ tests:
   - id: KA-z3Z_-WUq4D99i5GWGRg
     enabled: true
     invertResult: false
-    order: 13
+    order: 15
     repeat: 1
     type: Action
     elementId: snHZhAPwhkGu807ot7wrRQ
@@ -305,7 +355,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 14
+    order: 16
     repeat: 1
     type: Action
     elementId: uLWkfGN7rkWkbTBzr138bg
@@ -328,7 +378,7 @@ tests:
   - id: JT92o6Vsf02rRbKKjlNxWg
     enabled: true
     invertResult: false
-    order: 15
+    order: 17
     repeat: 1
     type: Action
     elementId: -uz4G_opLEGyAdudufWlgw
@@ -348,7 +398,7 @@ tests:
   - id: fCHt5ZLF10iaHcjmEIu2hA
     enabled: true
     invertResult: false
-    order: 16
+    order: 18
     repeat: 1
     type: Action
     elementId: OR4HEg20MkK5jyTzErcRzQ
@@ -369,7 +419,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 17
+    order: 19
     repeat: 1
     type: Action
     elementId: AmQw8scogUSYpVXa5DICXw
@@ -392,7 +442,7 @@ tests:
   - id: hPUeNlv-8kyccIxnmRj_1A
     enabled: true
     invertResult: false
-    order: 18
+    order: 20
     repeat: 1
     type: Action
     elementId: HJHDu4NdrEODk8CbIjSLSw
@@ -412,7 +462,7 @@ tests:
   - id: d65qN5cG8EW4jYL_bfx7Lw
     enabled: true
     invertResult: false
-    order: 19
+    order: 21
     repeat: 1
     type: Action
     elementId: 2oUX583LF0CR6j7bAAN0KA
@@ -432,7 +482,7 @@ tests:
   - id: VictfbSaX0KQ_axhy_y9Ng
     enabled: true
     invertResult: false
-    order: 20
+    order: 22
     repeat: 1
     type: Action
     elementId: HJHDu4NdrEODk8CbIjSLSw
@@ -453,7 +503,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 21
+    order: 23
     repeat: 1
     type: Action
     elementId: snHZhAPwhkGu807ot7wrRQ
@@ -477,7 +527,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 22
+    order: 24
     repeat: 1
     type: Test
     targetTestId: tUX8tFyeR0iBzVQoWNiNTA
@@ -501,6 +551,10 @@ tests:
   - name: batpwd
     description: ''
     type: Input
+  - name: q42022text
+    description: ''
+    value: Q4 2022
+    type: Output
 auxTests:
 - id: qo1m4rGW7EWa6lr84ol-Sw
   name: Sign In Test
@@ -1137,6 +1191,28 @@ elements:
   - name: XPATH
     value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]/XCUIElementTypeStaticText[1]
     priority: 4
+- id: DzEdmoYJuUSTRy6DxAScjg
+  name: Accounts
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: Accounts
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND label == 'Accounts' AND visible == 1
+    priority: 1
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND value == 'Accounts' AND visible == 1
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeCell[1]/XCUIElementTypeOther/XCUIElementTypeStaticText
+    priority: 3
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
+    priority: 4
 - id: CYeFM-9-VEGR4lwXOQwLxw
   name: View Forecast
   type:
@@ -1358,6 +1434,28 @@ elements:
     priority: 3
   - name: XPATH
     value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
+    priority: 4
+- id: kulgf0xPDU-eQxwXaBNHEQ
+  name: Q4 2022
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: Q4 2022
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND label == 'Q4 2022' AND visible == 1
+    priority: 1
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND value == 'Q4 2022' AND visible == 1
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeOther[1]/XCUIElementTypeStaticText[3]
+    priority: 3
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[3]
     priority: 4
 projectParameters: []
 addons: []
