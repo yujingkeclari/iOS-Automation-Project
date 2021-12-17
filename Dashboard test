@@ -1,7 +1,7 @@
-id: xmEBahdP6kqF-gDiXV3Ffg
+id: bAOsS9eVhkmDy6y47TbDsg
 projectId: VgCKwk5ni0mrO8Ujsd9vpg
 projectName: Mobile Automation Project
-created: 2021-10-27T16:49:40.4656407Z
+created: 2021-12-17T17:26:32.1265763Z
 protocol: 1
 tests:
 - id: a1cvDIRL2UamjUIige6uhA
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_iOS
   version: 0.1
   creationDate: 2021-10-27T09:28:55.0000000
-  modificationDate: 2021-10-27T16:24:09.0000000
+  modificationDate: 2021-12-17T17:24:01.0000000
   settings:
     automationAssistant: true
     deviceId: 3C9656A0-1755-4B8A-A9AB-E3A5151630B6
@@ -166,7 +166,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: automation
+      value: MA1
       direction: Input
     conditions: []
     validations: []
@@ -329,73 +329,10 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: v1FTGrw_LkSWMihD2DzCIQ
-    enabled: true
+  - id: 07y-o-8KU0yDK_mGBoGyAQ
+    enabled: false
     invertResult: false
     order: 14
-    repeat: 1
-    type: Action
-    elementId: Nk6H1scYAkGnGdk3Rtdwng
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
-      source: System
-    parameterMaps:
-    - name: keys
-      value: automation
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 8pW-NyI8W06esgDn3S8olQ
-    enabled: true
-    invertResult: false
-    order: 15
-    repeat: 1
-    type: Action
-    elementId: EgTz7mV7AkqdDqTyzlfX8w
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: eOOC7GuGXEmV5Vfn1bPopQ
-    enabled: true
-    invertResult: false
-    order: 16
-    repeat: 1
-    type: Action
-    elementId: Q1N-ErzQ30iSN_avaKUE2A
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 07y-o-8KU0yDK_mGBoGyAQ
-    enabled: true
-    invertResult: false
-    order: 17
     repeat: 1
     type: Action
     elementId: QFKkfegQQUGNgRwG7VJmLg
@@ -413,9 +350,9 @@ tests:
     validations: []
     contexts: []
   - id: NcXuZPYRkUiQdkFG4Uhv1w
-    enabled: true
+    enabled: false
     invertResult: false
-    order: 18
+    order: 15
     repeat: 1
     type: Action
     elementId: Nk6H1scYAkGnGdk3Rtdwng
@@ -435,7 +372,7 @@ tests:
   - id: pj8A9JasL06ydJLX2YjN0w
     enabled: true
     invertResult: false
-    order: 19
+    order: 16
     repeat: 1
     type: Action
     elementId: Nk6H1scYAkGnGdk3Rtdwng
@@ -450,7 +387,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: my
+      value: MA2
       direction: Input
     conditions: []
     validations: []
@@ -458,7 +395,7 @@ tests:
   - id: 2JoRxB3fR0mblWA8KlnjMA
     enabled: true
     invertResult: false
-    order: 20
+    order: 17
     repeat: 1
     type: Action
     elementId: 12kgPqHqs0aY3OjdpDC4iQ
@@ -478,7 +415,7 @@ tests:
   - id: IPfKeM4tF0WyLpdpLdAwkg
     enabled: true
     invertResult: false
-    order: 21
+    order: 18
     repeat: 1
     type: Action
     elementId: Q1N-ErzQ30iSN_avaKUE2A
@@ -495,7 +432,70 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: _2j7dftUO06MDuX944dr-Q
+  - id: XTF0__7vz0KfbbRvPzbmzg
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Action
+    elementId: OmsSIqpM9E6K2kt89aIHIw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: QvhD5H1tckWoVyxW-aVqOQ
+    enabled: true
+    invertResult: false
+    order: 20
+    repeat: 1
+    type: Action
+    elementId: 9vXaP8vh00mA_IQ9PgbMoQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Updated
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: psSKDGbAbUWKYItw92BPDw
+    enabled: true
+    invertResult: false
+    order: 21
+    repeat: 1
+    type: Action
+    elementId: 7i7sRAye_E6crhX9azi82w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Bwett_BSU0OmeeCP0uQlYQ
     enabled: true
     invertResult: false
     order: 22
@@ -512,16 +512,16 @@ tests:
       source: System
     parameterMaps:
     - name: startX
-      value: 934
+      value: 1107
       direction: Input
     - name: startY
-      value: 1651
+      value: 2114
       direction: Input
     - name: endX
-      value: 99
+      value: 221
       direction: Input
     - name: endY
-      value: 1683
+      value: 2110
       direction: Input
     - name: duration
       value: 300
@@ -529,14 +529,161 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: ImGfapA5GEO8VkXnNMg3hQ
-    comments: ''
+  - id: D11VTHjlCUqz5V1JTR0nog
     enabled: true
     invertResult: false
     order: 23
     repeat: 1
     type: Action
-    elementId: trsWwKkZPEiP-s4BUz_k0g
+    elementId: OmsSIqpM9E6K2kt89aIHIw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: rF1dvbTS0kKYfHRIRtFu8w
+    enabled: true
+    invertResult: false
+    order: 24
+    repeat: 1
+    type: Action
+    elementId: 7i7sRAye_E6crhX9azi82w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8ZsU_5dW8UqVVTRQQJefbg
+    enabled: true
+    invertResult: false
+    order: 25
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
+      source: System
+    parameterMaps:
+    - name: startX
+      value: 962
+      direction: Input
+    - name: startY
+      value: 2194
+      direction: Input
+    - name: endX
+      value: 270
+      direction: Input
+    - name: endY
+      value: 2194
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: lyxDxxkY1kS3H2a-X1VvFA
+    enabled: true
+    invertResult: false
+    order: 26
+    repeat: 1
+    type: Action
+    elementId: kjn84kh1v0CCLzjf_DTepA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vSwzpWwZ0UmhuU64TgndYg
+    enabled: true
+    invertResult: false
+    order: 27
+    repeat: 1
+    type: Action
+    elementId: 7i7sRAye_E6crhX9azi82w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9AGOziB9k0aYl7SlqA1okQ
+    enabled: true
+    invertResult: false
+    order: 28
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
+      source: System
+    parameterMaps:
+    - name: startX
+      value: 910
+      direction: Input
+    - name: startY
+      value: 2170
+      direction: Input
+    - name: endX
+      value: 278
+      direction: Input
+    - name: endY
+      value: 2178
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: u4u1JGMQ-kOjDEr4V5dfcQ
+    enabled: true
+    invertResult: false
+    order: 29
+    repeat: 1
+    type: Action
+    elementId: 8wCFzIjFiES4VZmzR6nryA
     settings:
       sleepTime: -1
       timeout: -1
@@ -548,7 +695,7 @@ tests:
       source: System
     parameterMaps:
     - name: text
-      value: Won Best Case Deals
+      value: CQ
       direction: Input
     conditions: []
     validations: []
@@ -557,7 +704,7 @@ tests:
     comments: This step was auto generated from several steps
     enabled: true
     invertResult: false
-    order: 24
+    order: 30
     repeat: 1
     type: Test
     targetTestId: tUX8tFyeR0iBzVQoWNiNTA
@@ -1208,19 +1355,6 @@ elements:
   - name: XPATH
     value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]
     priority: 2
-- id: EgTz7mV7AkqdDqTyzlfX8w
-  name: Mobile Automation Dash (Do not delete)1
-  type:
-    id: jUwODgyNjAyNzk2NTk4MjM
-    name: XCUIElementTypeStaticText
-    source: System
-  locators:
-  - name: XPATH
-    value: //XCUIElementTypeCell[1]//XCUIElementTypeStaticText[1]
-    priority: 0
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
-    priority: 1
 - id: Q1N-ErzQ30iSN_avaKUE2A
   name: Replace
   type:
@@ -1230,10 +1364,10 @@ elements:
   locators:
   - name: IOSPREDICATE
     value: type == 'XCUIElementTypeButton' AND label == 'Replace' AND visible == 1
-    priority: 0
+    priority: 1
   - name: XPATH
     value: //XCUIElementTypeButton[2]
-    priority: 1
+    priority: 0
   - name: XPATH
     value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeButton[2]
     priority: 2
@@ -1257,49 +1391,15 @@ elements:
     value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeButton[1]
     priority: 3
 - id: 12kgPqHqs0aY3OjdpDC4iQ
-  name: My Dashboard
+  name: MA2 Dashboard
   type:
     id: jUwODgyNjAyNzk2NTk4MjM
     name: XCUIElementTypeStaticText
     source: System
   locators:
-  - name: ACCESSIBILITYID
-    value: My Dashboard
-    priority: 0
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeStaticText' AND label == 'My Dashboard' AND visible == 1
-    priority: 1
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeStaticText' AND value == 'My Dashboard' AND visible == 1
-    priority: 2
   - name: XPATH
     value: //XCUIElementTypeCell//XCUIElementTypeStaticText[1]
-    priority: 3
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
-    priority: 4
-- id: trsWwKkZPEiP-s4BUz_k0g
-  name: Won Best Case Deals
-  type:
-    id: jUwODgyNjAyNzk2NTk4MjM
-    name: XCUIElementTypeStaticText
-    source: System
-  locators:
-  - name: ACCESSIBILITYID
-    value: Won Best Case Deals
     priority: 0
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeStaticText' AND label == 'Won Best Case Deals' AND visible == 1
-    priority: 1
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeStaticText' AND value == 'Won Best Case Deals' AND visible == 1
-    priority: 2
-  - name: XPATH
-    value: //XCUIElementTypeCell/XCUIElementTypeOther[2]/XCUIElementTypeStaticText[1]
-    priority: 3
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[2]/XCUIElementTypeStaticText[1]
-    priority: 4
 - id: RNclnr0OVU6GCZJDvEsI1w
   name: Yes
   type:
@@ -1320,27 +1420,15 @@ elements:
     value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[3]/XCUIElementTypeAlert[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]
     priority: 3
 - id: d7NzZMSxcUCfhfjIkxlBFw
-  name: Show All Dashboards (37)
+  name: Show All Dashboards
   type:
-    id: jUwODgyNjAyNzk2NTk4MjM
-    name: XCUIElementTypeStaticText
+    id: jUwODgyNjAyNzk2NTk1NDU
+    name: Generic iOS Element
     source: System
   locators:
   - name: ACCESSIBILITYID
-    value: Show All Dashboards (37)
+    value: showAllDashboardsButton
     priority: 0
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeStaticText' AND label == 'Show All Dashboards (37)' AND visible == 1
-    priority: 1
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeStaticText' AND value == 'Show All Dashboards (37)' AND visible == 1
-    priority: 2
-  - name: XPATH
-    value: //XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeStaticText
-    priority: 3
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeStaticText[1]
-    priority: 4
 - id: EGRFFIbeg0G5_oxLa9UPIw
   name: icon settings
   type:
@@ -1376,5 +1464,84 @@ elements:
   - name: XPATH
     value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[4]
     priority: 2
+- id: OmsSIqpM9E6K2kt89aIHIw
+  name: XCUIELEMENTTYPEOTHER1
+  type:
+    id: jUwODgyNjAyNzk2NTk3OTk
+    name: XCUIElementTypeOther
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell/XCUIElementTypeOther[1]
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]
+    priority: 1
+- id: 9vXaP8vh00mA_IQ9PgbMoQ
+  name: Updated Dec 16, 2021, 11:37 PM PST
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: Updated Dec 16, 2021, 11:37 PM PST
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND label == 'Updated Dec 16, 2021, 11:37 PM PST' AND visible == 1
+    priority: 1
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND value == 'Updated Dec 16, 2021, 11:37 PM PST' AND visible == 1
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText
+    priority: 3
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
+    priority: 4
+- id: kjn84kh1v0CCLzjf_DTepA
+  name: S2-Buisness Validation
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: S2-Buisness Validation
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND label == 'S2-Buisness Validation' AND visible == 1
+    priority: 1
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND value == 'S2-Buisness Validation' AND visible == 1
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeOther[2]/XCUIElementTypeStaticText[3]
+    priority: 3
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[2]/XCUIElementTypeStaticText[3]
+    priority: 4
+- id: 8wCFzIjFiES4VZmzR6nryA
+  name: 'CQ: Open'
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: 'CQ: Open'
+    priority: 0
+  - name: IOSPREDICATE
+    value: "type == 'XCUIElementTypeStaticText' AND label == 'CQ: Open' AND visible == 1"
+    priority: 1
+  - name: IOSPREDICATE
+    value: "type == 'XCUIElementTypeStaticText' AND value == 'CQ: Open' AND visible == 1"
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeCell/XCUIElementTypeOther[3]/XCUIElementTypeStaticText[1]
+    priority: 3
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[3]/XCUIElementTypeStaticText[1]
+    priority: 4
 projectParameters: []
 addons: []
