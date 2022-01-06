@@ -1,7 +1,7 @@
-id: YV3jGs5VdkyGn-e5fYtcXQ
+id: Wzwl5wk1mUeJt3vAHvAiHQ
 projectId: VgCKwk5ni0mrO8Ujsd9vpg
 projectName: Mobile Automation Project
-created: 2021-12-16T10:41:06.6987788Z
+created: 2022-01-06T16:53:29.1171129Z
 protocol: 1
 tests:
 - id: 0nRp79PXlEq8VO-zx9SSfg
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_iOS
   version: 0.1
   creationDate: 2021-10-27T16:29:01.0000000
-  modificationDate: 2021-12-16T10:39:30.0000000
+  modificationDate: 2021-12-17T00:58:41.0000000
   settings:
     automationAssistant: true
     deviceId: 3C9656A0-1755-4B8A-A9AB-E3A5151630B6
@@ -122,7 +122,7 @@ tests:
       value: ''
       direction: Input
     - name: expectedStatus
-      value: 200
+      value: ''
       direction: Input
     - name: jsonPath
       value: ''
@@ -2029,27 +2029,15 @@ elements:
     value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeNavigationBar[1]/XCUIElementTypeButton[1]
     priority: 3
 - id: 12kgPqHqs0aY3OjdpDC4iQ
-  name: My Dashboard
+  name: MA2 Dashboard
   type:
     id: jUwODgyNjAyNzk2NTk4MjM
     name: XCUIElementTypeStaticText
     source: System
   locators:
-  - name: ACCESSIBILITYID
-    value: My Dashboard
-    priority: 3
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeStaticText' AND label == 'My Dashboard' AND visible == 1
-    priority: 1
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeStaticText' AND value == 'My Dashboard' AND visible == 1
-    priority: 2
   - name: XPATH
     value: //XCUIElementTypeCell//XCUIElementTypeStaticText[1]
     priority: 0
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
-    priority: 4
 - id: RNclnr0OVU6GCZJDvEsI1w
   name: Yes
   type:
