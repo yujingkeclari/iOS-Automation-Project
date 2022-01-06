@@ -1,7 +1,7 @@
-id: UGvdJssxL0Kt1GK08s995Q
+id: O2H181xPCE6PRDc8n1cbcw
 projectId: VgCKwk5ni0mrO8Ujsd9vpg
 projectName: Mobile Automation Project
-created: 2022-01-06T15:31:22.5619599Z
+created: 2022-01-06T16:36:20.1210652Z
 protocol: 1
 tests:
 - id: a1cvDIRL2UamjUIige6uhA
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_iOS
   version: 0.1
   creationDate: 2021-10-27T09:28:55.0000000
-  modificationDate: 2022-01-06T15:31:22.0000000
+  modificationDate: 2022-01-06T16:36:17.0000000
   settings:
     automationAssistant: true
     deviceId: 3C9656A0-1755-4B8A-A9AB-E3A5151630B6
@@ -94,13 +94,13 @@ tests:
       value: 571
       direction: Input
     - name: startY
-      value: 2000
+      value: 1800
       direction: Input
     - name: endX
       value: 575
       direction: Input
     - name: endY
-      value: 1572
+      value: 1400
       direction: Input
     - name: duration
       value: 300
