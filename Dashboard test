@@ -1,7 +1,7 @@
-id: QfRgo_pXw0i6sIqgaGhLvQ
+id: 5aP8UQvzSEqZpyyp-3Rysg
 projectId: VgCKwk5ni0mrO8Ujsd9vpg
 projectName: Mobile Automation Project
-created: 2022-01-20T16:04:29.9986040Z
+created: 2022-01-20T16:17:25.0705513Z
 protocol: 1
 tests:
 - id: a1cvDIRL2UamjUIige6uhA
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_iOS
   version: 0.1
   creationDate: 2021-10-27T09:28:55.0000000
-  modificationDate: 2022-01-20T16:04:26.0000000
+  modificationDate: 2022-01-20T16:16:45.0000000
   settings:
     automationAssistant: true
     deviceId: BC702342-7D87-40A6-8001-E677F5D66575
@@ -131,7 +131,7 @@ tests:
       value: DOWN
       direction: Input
     - name: amountOfSwipes
-      value: 1
+      value: 2
       direction: Input
     conditions: []
     validations: []
