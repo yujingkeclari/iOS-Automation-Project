@@ -1,7 +1,7 @@
-id: SAUW52gHg06Ev2mpita7KQ
+id: msLcQUz640S09FGZBgm0_A
 projectId: VgCKwk5ni0mrO8Ujsd9vpg
-projectName: Mobile Automation Project
-created: 2021-10-27T16:49:40.4635236Z
+projectName: iOS Automation Project
+created: 2022-04-14T20:29:32.1700303Z
 protocol: 1
 tests:
 - id: qo1m4rGW7EWa6lr84ol-Sw
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_iOS
   version: 0.1
   creationDate: 2021-09-24T07:05:16.0000000
-  modificationDate: 2021-10-27T16:49:33.0000000
+  modificationDate: 2022-04-14T20:29:27.0000000
   settings:
     automationAssistant: true
     deviceId: 1BF1C370-5AF6-4620-8996-583CAE9BD00A
@@ -257,14 +257,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: H_f47lMBOUmgfnriVL7lKw
-    comments: ''
+  - id: u6kdbISG20eir-viDrqKMA
     enabled: true
     invertResult: false
     order: 12
     repeat: 1
     type: Action
-    elementId: 12kgPqHqs0aY3OjdpDC4iQ
+    elementId: 5G5ssocj-kexlrwcd2X6ow
     settings:
       sleepTime: -1
       timeout: -1
@@ -286,6 +285,10 @@ tests:
   - name: batpwd
     description: ''
     type: Input
+  - name: currencyAccEmail
+    description: ''
+    value: chandrika@clari.currency.com
+    type: Input
 auxTests: []
 elements:
 - id: 8O3JWC4avUe2VlrsxVsBtA
@@ -306,6 +309,44 @@ elements:
     priority: 2
   - name: XPATH
     value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]
+    priority: 3
+- id: q1sRF2mJf0i-B3XjArRNYg
+  name: Sign In1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NjY
+    name: XCUIElementTypeButton
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: Sign In
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeButton' AND label == 'Sign In' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeButton[2]
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[2]
+    priority: 3
+- id: NiNYAOv5qEG--kZbjbiiJQ
+  name: Prestaging
+  type:
+    id: jUwODgyNjAyNzk2NTk3NjY
+    name: XCUIElementTypeButton
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: Prestaging
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeButton' AND label == 'Prestaging' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeOther[3]/XCUIElementTypeButton
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeAlert[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeButton[1]
     priority: 3
 - id: vULM008qoEelAro0fJkTwQ
   name: Login Email Address
@@ -411,65 +452,27 @@ elements:
   - name: XPATH
     value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[2]
     priority: 3
-- id: q1sRF2mJf0i-B3XjArRNYg
-  name: Sign In1
-  type:
-    id: jUwODgyNjAyNzk2NTk3NjY
-    name: XCUIElementTypeButton
-    source: System
-  locators:
-  - name: ACCESSIBILITYID
-    value: Sign In
-    priority: 0
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeButton' AND label == 'Sign In' AND visible == 1
-    priority: 1
-  - name: XPATH
-    value: //XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeButton[2]
-    priority: 2
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[2]
-    priority: 3
-- id: NiNYAOv5qEG--kZbjbiiJQ
-  name: Prestaging
-  type:
-    id: jUwODgyNjAyNzk2NTk3NjY
-    name: XCUIElementTypeButton
-    source: System
-  locators:
-  - name: ACCESSIBILITYID
-    value: Prestaging
-    priority: 0
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeButton' AND label == 'Prestaging' AND visible == 1
-    priority: 1
-  - name: XPATH
-    value: //XCUIElementTypeOther[3]/XCUIElementTypeButton
-    priority: 2
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeAlert[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeButton[1]
-    priority: 3
-- id: 12kgPqHqs0aY3OjdpDC4iQ
-  name: My Dashboard
+- id: 5G5ssocj-kexlrwcd2X6ow
+  name: MY FORECAST (CURRENT QUARTER)
   type:
     id: jUwODgyNjAyNzk2NTk4MjM
     name: XCUIElementTypeStaticText
     source: System
   locators:
   - name: ACCESSIBILITYID
-    value: My Dashboard
+    value: MY FORECAST (CURRENT QUARTER)
     priority: 0
   - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeStaticText' AND label == 'My Dashboard' AND visible == 1
+    value: type == 'XCUIElementTypeStaticText' AND label == 'MY FORECAST (CURRENT QUARTER)' AND visible == 1
     priority: 1
   - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeStaticText' AND value == 'My Dashboard' AND visible == 1
+    value: type == 'XCUIElementTypeStaticText' AND value == 'MY FORECAST (CURRENT QUARTER)' AND visible == 1
     priority: 2
   - name: XPATH
-    value: //XCUIElementTypeCell//XCUIElementTypeStaticText[1]
+    value: //XCUIElementTypeCollectionView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeStaticText[1]
     priority: 3
   - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
     priority: 4
 projectParameters: []
 addons: []
