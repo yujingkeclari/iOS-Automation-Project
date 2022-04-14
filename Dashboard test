@@ -1,7 +1,7 @@
-id: 5aP8UQvzSEqZpyyp-3Rysg
+id: Uqj6EUpxVUGeMBjFMnYqZQ
 projectId: VgCKwk5ni0mrO8Ujsd9vpg
-projectName: Mobile Automation Project
-created: 2022-01-20T16:17:25.0705513Z
+projectName: iOS Automation Project
+created: 2022-04-14T20:29:32.1701443Z
 protocol: 1
 tests:
 - id: a1cvDIRL2UamjUIige6uhA
@@ -998,7 +998,7 @@ auxTests:
   driverType: Appium_iOS
   version: 0.1
   creationDate: 2021-09-24T07:05:16.0000000
-  modificationDate: 2021-10-27T16:49:33.0000000
+  modificationDate: 2022-04-14T20:29:27.0000000
   settings:
     automationAssistant: true
     deviceId: 1BF1C370-5AF6-4620-8996-583CAE9BD00A
@@ -1238,14 +1238,13 @@ auxTests:
     conditions: []
     validations: []
     contexts: []
-  - id: H_f47lMBOUmgfnriVL7lKw
-    comments: ''
+  - id: u6kdbISG20eir-viDrqKMA
     enabled: true
     invertResult: false
     order: 12
     repeat: 1
     type: Action
-    elementId: 12kgPqHqs0aY3OjdpDC4iQ
+    elementId: 5G5ssocj-kexlrwcd2X6ow
     settings:
       sleepTime: -1
       timeout: -1
@@ -1266,6 +1265,10 @@ auxTests:
     type: Input
   - name: batpwd
     description: ''
+    type: Input
+  - name: currencyAccEmail
+    description: ''
+    value: chandrika@clari.currency.com
     type: Input
 - id: tUX8tFyeR0iBzVQoWNiNTA
   name: Sign out
@@ -1347,6 +1350,447 @@ auxTests:
     contexts: []
   parameters: []
 elements:
+- id: d7NzZMSxcUCfhfjIkxlBFw
+  name: Show All Dashboards
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDU
+    name: Generic iOS Element
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: showAllDashboardsButton
+    priority: 0
+- id: Nk6H1scYAkGnGdk3Rtdwng
+  name: XCUIELEMENTTYPETEXTFIELD
+  type:
+    id: jUwODgyNjAyNzk2NTk4MzM
+    name: XCUIElementTypeTextField
+    source: System
+  locators:
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeTextField' AND visible == 1
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeTextField' AND value == 'Search' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeTextField
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTextField[1]
+    priority: 3
+- id: eTu20yqv5kiBuJ5G8dnewQ
+  name: Mobile Automation Dash MA1(Do not delete)
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeCell[1]//XCUIElementTypeStaticText[1]
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
+    priority: 1
+- id: gsqpnxPVyEKZy9zWnH7wBQ
+  name: XCUIELEMENTTYPEOTHER3
+  type:
+    id: jUwODgyNjAyNzk2NTk3OTk
+    name: XCUIElementTypeOther
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]
+    priority: 1
+- id: xyrkqBzBqEaApLVj9KEk8w
+  name: Dashboards
+  type:
+    id: jUwODgyNjAyNzk2NTk3NjY
+    name: XCUIElementTypeButton
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: Dashboards
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeButton' AND label == 'Dashboards' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeButton[1]
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeNavigationBar[1]/XCUIElementTypeButton[1]
+    priority: 3
+- id: 7i7sRAye_E6crhX9azi82w
+  name: Back
+  type:
+    id: jUwODgyNjAyNzk2NTk3NjY
+    name: XCUIElementTypeButton
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: Back
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeButton' AND label == 'Back' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeNavigationBar/XCUIElementTypeButton
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeNavigationBar[1]/XCUIElementTypeButton[1]
+    priority: 3
+- id: Fqp5-Ew9p0iRIZfQHSxnDw
+  name: SAVED VIEWS
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: SAVED VIEWS
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND label == 'SAVED VIEWS' AND visible == 1
+    priority: 1
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND value == 'SAVED VIEWS' AND visible == 1
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeCollectionView/XCUIElementTypeOther/XCUIElementTypeStaticText
+    priority: 3
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[3]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
+    priority: 4
+- id: MNJtmQyGZkyWV-JVekwWZw
+  name: Replace pin button
+  type:
+    id: jUwODgyNjAyNzk2NTk3NjY
+    name: XCUIElementTypeButton
+    source: System
+  locators:
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeButton' AND label == 'Button' AND visible == 1
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeOther/XCUIElementTypeButton[1]
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]
+    priority: 2
+- id: QFKkfegQQUGNgRwG7VJmLg
+  name: LetsGoButton
+  type:
+    id: jUwODgyNjAyNzk2NTk3NjY
+    name: XCUIElementTypeButton
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: LetsGoButtonId
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeButton' AND label == 'LetsGoButton' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeOther[2]/XCUIElementTypeButton
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeButton[1]
+    priority: 3
+- id: 12kgPqHqs0aY3OjdpDC4iQ
+  name: MA2 Dashboard
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeCell//XCUIElementTypeStaticText[1]
+    priority: 0
+- id: Q1N-ErzQ30iSN_avaKUE2A
+  name: Replace
+  type:
+    id: jUwODgyNjAyNzk2NTk3NjY
+    name: XCUIElementTypeButton
+    source: System
+  locators:
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeButton' AND label == 'Replace' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeButton[2]
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeButton[2]
+    priority: 2
+- id: ciX1Qj8aHE6y7yMpPtzggQ
+  name: Overdue Deals (Sales Rep)
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
+    priority: 1
+- id: 9vXaP8vh00mA_IQ9PgbMoQ
+  name: Updated XXX time PST
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
+    priority: 1
+- id: ppJufiFyr06oZaYTOBO2Xg
+  name: 12 Deals • €56,147,402
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeOther[1]/XCUIElementTypeStaticText[2]
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[2]
+    priority: 1
+- id: QRgcVVuCYEWGFKYEUw4S9w
+  name: CRM Fields >
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeCell[1]/XCUIElementTypeButton[1]/XCUIElementTypeStaticText
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeCell[1]/XCUIElementTypeButton[1]/XCUIElementTypeStaticText[1]
+    priority: 1
+- id: 2lrVSPkcmUKYA-89rOxAiQ
+  name: Insights
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: Insights
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND label == 'Insights' AND visible == 1
+    priority: 1
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND value == 'Insights' AND visible == 1
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText
+    priority: 3
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
+    priority: 4
+- id: 6LBMrqScDE2MdJFR4MPV1Q
+  name: 12 Deals • €56,147,4021
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeOther/XCUIElementTypeStaticText[2]
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[2]
+    priority: 1
+- id: ZzZJc2lzeES_bZjpFLCHhA
+  name: AI Projection
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: AI Projection
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND label == 'AI Projection' AND visible == 1
+    priority: 1
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND value == 'AI Projection' AND visible == 1
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeScrollView//XCUIElementTypeStaticText[2]
+    priority: 3
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[2]
+    priority: 4
+- id: OmsSIqpM9E6K2kt89aIHIw
+  name: pulse widget
+  type:
+    id: jUwODgyNjAyNzk2NTk3OTk
+    name: XCUIElementTypeOther
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell/XCUIElementTypeOther[1]
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]
+    priority: 1
+- id: HNBtoo32qE6_1I_CSqLS-A
+  name: Changes to S2-Buisness Validation Deals
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: Changes to S2-Buisness Validation Deals
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND value == 'Changes to S2-Buisness Validation Deals' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeCell[3]//XCUIElementTypeStaticText[1]
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[3]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
+    priority: 3
+- id: kjn84kh1v0CCLzjf_DTepA
+  name: S2-Buisness Validation
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: S2-Buisness Validation
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND label == 'S2-Buisness Validation' AND visible == 1
+    priority: 1
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND value == 'S2-Buisness Validation' AND visible == 1
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeOther[2]/XCUIElementTypeStaticText[3]
+    priority: 3
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[2]/XCUIElementTypeStaticText[3]
+    priority: 4
+- id: ikcydZIEMkeFxr5PpA1kjw
+  name: TOTAL
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeOther[4]/XCUIElementTypeOther/XCUIElementTypeStaticText[2]
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[4]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[2]
+    priority: 1
+- id: 8wCFzIjFiES4VZmzR6nryA
+  name: 'CQ: Open'
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: 'CQ: Open'
+    priority: 0
+  - name: IOSPREDICATE
+    value: "type == 'XCUIElementTypeStaticText' AND label == 'CQ: Open' AND visible == 1"
+    priority: 1
+  - name: IOSPREDICATE
+    value: "type == 'XCUIElementTypeStaticText' AND value == 'CQ: Open' AND visible == 1"
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeCell/XCUIElementTypeOther[3]/XCUIElementTypeStaticText[1]
+    priority: 3
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[3]/XCUIElementTypeStaticText[1]
+    priority: 4
+- id: KsAXRUB5Z0CaR5sfBqMICA
+  name: Changes to S2-Buisness Validation Deals1
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
+    priority: 1
+- id: EGRFFIbeg0G5_oxLa9UPIw
+  name: icon settings
+  type:
+    id: jUwODgyNjAyNzk2NTk3NjY
+    name: XCUIElementTypeButton
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: icon settings
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeButton' AND label == 'icon settings' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeNavigationBar/XCUIElementTypeButton[1]
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeNavigationBar[1]/XCUIElementTypeButton[1]
+    priority: 3
+- id: omWOxc5lcEaTO8xsR90jQQ
+  name: SignOutButton
+  type:
+    id: jUwODgyNjAyNzk2NTk3Njc
+    name: XCUIElementTypeCell
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: SignOutButton
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView/XCUIElementTypeCell[4]
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[4]
+    priority: 2
+- id: RNclnr0OVU6GCZJDvEsI1w
+  name: Yes
+  type:
+    id: jUwODgyNjAyNzk2NTk3NjY
+    name: XCUIElementTypeButton
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: Yes
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeButton' AND label == 'Yes' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[3]/XCUIElementTypeAlert[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]
+    priority: 3
 - id: 8O3JWC4avUe2VlrsxVsBtA
   name: LetsGoButton
   type:
@@ -1365,6 +1809,44 @@ elements:
     priority: 2
   - name: XPATH
     value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]
+    priority: 3
+- id: q1sRF2mJf0i-B3XjArRNYg
+  name: Sign In1
+  type:
+    id: jUwODgyNjAyNzk2NTk3NjY
+    name: XCUIElementTypeButton
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: Sign In
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeButton' AND label == 'Sign In' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeButton[2]
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[2]
+    priority: 3
+- id: NiNYAOv5qEG--kZbjbiiJQ
+  name: Prestaging
+  type:
+    id: jUwODgyNjAyNzk2NTk3NjY
+    name: XCUIElementTypeButton
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: Prestaging
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeButton' AND label == 'Prestaging' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeOther[3]/XCUIElementTypeButton
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeAlert[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeButton[1]
     priority: 3
 - id: vULM008qoEelAro0fJkTwQ
   name: Login Email Address
@@ -1470,485 +1952,28 @@ elements:
   - name: XPATH
     value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[2]
     priority: 3
-- id: q1sRF2mJf0i-B3XjArRNYg
-  name: Sign In1
-  type:
-    id: jUwODgyNjAyNzk2NTk3NjY
-    name: XCUIElementTypeButton
-    source: System
-  locators:
-  - name: ACCESSIBILITYID
-    value: Sign In
-    priority: 0
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeButton' AND label == 'Sign In' AND visible == 1
-    priority: 1
-  - name: XPATH
-    value: //XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeButton[2]
-    priority: 2
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[2]
-    priority: 3
-- id: NiNYAOv5qEG--kZbjbiiJQ
-  name: Prestaging
-  type:
-    id: jUwODgyNjAyNzk2NTk3NjY
-    name: XCUIElementTypeButton
-    source: System
-  locators:
-  - name: ACCESSIBILITYID
-    value: Prestaging
-    priority: 0
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeButton' AND label == 'Prestaging' AND visible == 1
-    priority: 1
-  - name: XPATH
-    value: //XCUIElementTypeOther[3]/XCUIElementTypeButton
-    priority: 2
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeAlert[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeButton[1]
-    priority: 3
-- id: Nk6H1scYAkGnGdk3Rtdwng
-  name: XCUIELEMENTTYPETEXTFIELD
-  type:
-    id: jUwODgyNjAyNzk2NTk4MzM
-    name: XCUIElementTypeTextField
-    source: System
-  locators:
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeTextField' AND visible == 1
-    priority: 0
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeTextField' AND value == 'Search' AND visible == 1
-    priority: 1
-  - name: XPATH
-    value: //XCUIElementTypeTextField
-    priority: 2
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTextField[1]
-    priority: 3
-- id: eTu20yqv5kiBuJ5G8dnewQ
-  name: Mobile Automation Dash MA1(Do not delete)
-  type:
-    id: jUwODgyNjAyNzk2NTk4MjM
-    name: XCUIElementTypeStaticText
-    source: System
-  locators:
-  - name: XPATH
-    value: //XCUIElementTypeCell[1]//XCUIElementTypeStaticText[1]
-    priority: 0
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
-    priority: 1
-- id: xyrkqBzBqEaApLVj9KEk8w
-  name: Dashboards
-  type:
-    id: jUwODgyNjAyNzk2NTk3NjY
-    name: XCUIElementTypeButton
-    source: System
-  locators:
-  - name: ACCESSIBILITYID
-    value: Dashboards
-    priority: 0
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeButton' AND label == 'Dashboards' AND visible == 1
-    priority: 1
-  - name: XPATH
-    value: //XCUIElementTypeButton[1]
-    priority: 2
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeNavigationBar[1]/XCUIElementTypeButton[1]
-    priority: 3
-- id: 7i7sRAye_E6crhX9azi82w
-  name: Back
-  type:
-    id: jUwODgyNjAyNzk2NTk3NjY
-    name: XCUIElementTypeButton
-    source: System
-  locators:
-  - name: ACCESSIBILITYID
-    value: Back
-    priority: 0
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeButton' AND label == 'Back' AND visible == 1
-    priority: 1
-  - name: XPATH
-    value: //XCUIElementTypeNavigationBar/XCUIElementTypeButton
-    priority: 2
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeNavigationBar[1]/XCUIElementTypeButton[1]
-    priority: 3
-- id: Fqp5-Ew9p0iRIZfQHSxnDw
-  name: SAVED VIEWS
+- id: 5G5ssocj-kexlrwcd2X6ow
+  name: MY FORECAST (CURRENT QUARTER)
   type:
     id: jUwODgyNjAyNzk2NTk4MjM
     name: XCUIElementTypeStaticText
     source: System
   locators:
   - name: ACCESSIBILITYID
-    value: SAVED VIEWS
+    value: MY FORECAST (CURRENT QUARTER)
     priority: 0
   - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeStaticText' AND label == 'SAVED VIEWS' AND visible == 1
+    value: type == 'XCUIElementTypeStaticText' AND label == 'MY FORECAST (CURRENT QUARTER)' AND visible == 1
     priority: 1
   - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeStaticText' AND value == 'SAVED VIEWS' AND visible == 1
+    value: type == 'XCUIElementTypeStaticText' AND value == 'MY FORECAST (CURRENT QUARTER)' AND visible == 1
     priority: 2
   - name: XPATH
-    value: //XCUIElementTypeCollectionView/XCUIElementTypeOther/XCUIElementTypeStaticText
+    value: //XCUIElementTypeCollectionView/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeStaticText[1]
     priority: 3
   - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[3]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
     priority: 4
-- id: MNJtmQyGZkyWV-JVekwWZw
-  name: Replace pin button
-  type:
-    id: jUwODgyNjAyNzk2NTk3NjY
-    name: XCUIElementTypeButton
-    source: System
-  locators:
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeButton' AND label == 'Button' AND visible == 1
-    priority: 0
-  - name: XPATH
-    value: //XCUIElementTypeOther/XCUIElementTypeButton[1]
-    priority: 1
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]
-    priority: 2
-- id: Q1N-ErzQ30iSN_avaKUE2A
-  name: Replace
-  type:
-    id: jUwODgyNjAyNzk2NTk3NjY
-    name: XCUIElementTypeButton
-    source: System
-  locators:
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeButton' AND label == 'Replace' AND visible == 1
-    priority: 1
-  - name: XPATH
-    value: //XCUIElementTypeButton[2]
-    priority: 0
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeButton[2]
-    priority: 2
-- id: QFKkfegQQUGNgRwG7VJmLg
-  name: LetsGoButton
-  type:
-    id: jUwODgyNjAyNzk2NTk3NjY
-    name: XCUIElementTypeButton
-    source: System
-  locators:
-  - name: ACCESSIBILITYID
-    value: LetsGoButtonId
-    priority: 0
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeButton' AND label == 'LetsGoButton' AND visible == 1
-    priority: 1
-  - name: XPATH
-    value: //XCUIElementTypeOther[2]/XCUIElementTypeButton
-    priority: 2
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeButton[1]
-    priority: 3
-- id: 12kgPqHqs0aY3OjdpDC4iQ
-  name: MA2 Dashboard
-  type:
-    id: jUwODgyNjAyNzk2NTk4MjM
-    name: XCUIElementTypeStaticText
-    source: System
-  locators:
-  - name: XPATH
-    value: //XCUIElementTypeCell//XCUIElementTypeStaticText[1]
-    priority: 0
-- id: RNclnr0OVU6GCZJDvEsI1w
-  name: Yes
-  type:
-    id: jUwODgyNjAyNzk2NTk3NjY
-    name: XCUIElementTypeButton
-    source: System
-  locators:
-  - name: ACCESSIBILITYID
-    value: Yes
-    priority: 0
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeButton' AND label == 'Yes' AND visible == 1
-    priority: 1
-  - name: XPATH
-    value: //XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton
-    priority: 2
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[3]/XCUIElementTypeAlert[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]
-    priority: 3
-- id: d7NzZMSxcUCfhfjIkxlBFw
-  name: Show All Dashboards
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDU
-    name: Generic iOS Element
-    source: System
-  locators:
-  - name: ACCESSIBILITYID
-    value: showAllDashboardsButton
-    priority: 0
-- id: EGRFFIbeg0G5_oxLa9UPIw
-  name: icon settings
-  type:
-    id: jUwODgyNjAyNzk2NTk3NjY
-    name: XCUIElementTypeButton
-    source: System
-  locators:
-  - name: ACCESSIBILITYID
-    value: icon settings
-    priority: 0
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeButton' AND label == 'icon settings' AND visible == 1
-    priority: 1
-  - name: XPATH
-    value: //XCUIElementTypeNavigationBar/XCUIElementTypeButton[1]
-    priority: 2
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeNavigationBar[1]/XCUIElementTypeButton[1]
-    priority: 3
-- id: omWOxc5lcEaTO8xsR90jQQ
-  name: SignOutButton
-  type:
-    id: jUwODgyNjAyNzk2NTk3Njc
-    name: XCUIElementTypeCell
-    source: System
-  locators:
-  - name: ACCESSIBILITYID
-    value: SignOutButton
-    priority: 0
-  - name: XPATH
-    value: //XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView/XCUIElementTypeCell[4]
-    priority: 1
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[4]
-    priority: 2
-- id: OmsSIqpM9E6K2kt89aIHIw
-  name: pulse widget
-  type:
-    id: jUwODgyNjAyNzk2NTk3OTk
-    name: XCUIElementTypeOther
-    source: System
-  locators:
-  - name: XPATH
-    value: //XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell/XCUIElementTypeOther[1]
-    priority: 0
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]
-    priority: 1
-- id: 9vXaP8vh00mA_IQ9PgbMoQ
-  name: Updated XXX time PST
-  type:
-    id: jUwODgyNjAyNzk2NTk4MjM
-    name: XCUIElementTypeStaticText
-    source: System
-  locators:
-  - name: XPATH
-    value: //XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeStaticText
-    priority: 0
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
-    priority: 1
-- id: kjn84kh1v0CCLzjf_DTepA
-  name: S2-Buisness Validation
-  type:
-    id: jUwODgyNjAyNzk2NTk4MjM
-    name: XCUIElementTypeStaticText
-    source: System
-  locators:
-  - name: ACCESSIBILITYID
-    value: S2-Buisness Validation
-    priority: 0
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeStaticText' AND label == 'S2-Buisness Validation' AND visible == 1
-    priority: 1
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeStaticText' AND value == 'S2-Buisness Validation' AND visible == 1
-    priority: 2
-  - name: XPATH
-    value: //XCUIElementTypeOther[2]/XCUIElementTypeStaticText[3]
-    priority: 3
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[2]/XCUIElementTypeStaticText[3]
-    priority: 4
-- id: 8wCFzIjFiES4VZmzR6nryA
-  name: 'CQ: Open'
-  type:
-    id: jUwODgyNjAyNzk2NTk4MjM
-    name: XCUIElementTypeStaticText
-    source: System
-  locators:
-  - name: ACCESSIBILITYID
-    value: 'CQ: Open'
-    priority: 0
-  - name: IOSPREDICATE
-    value: "type == 'XCUIElementTypeStaticText' AND label == 'CQ: Open' AND visible == 1"
-    priority: 1
-  - name: IOSPREDICATE
-    value: "type == 'XCUIElementTypeStaticText' AND value == 'CQ: Open' AND visible == 1"
-    priority: 2
-  - name: XPATH
-    value: //XCUIElementTypeCell/XCUIElementTypeOther[3]/XCUIElementTypeStaticText[1]
-    priority: 3
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[3]/XCUIElementTypeStaticText[1]
-    priority: 4
-- id: gsqpnxPVyEKZy9zWnH7wBQ
-  name: XCUIELEMENTTYPEOTHER3
-  type:
-    id: jUwODgyNjAyNzk2NTk3OTk
-    name: XCUIElementTypeOther
-    source: System
-  locators:
-  - name: XPATH
-    value: //XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther
-    priority: 0
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]
-    priority: 1
-- id: ppJufiFyr06oZaYTOBO2Xg
-  name: 12 Deals • €56,147,402
-  type:
-    id: jUwODgyNjAyNzk2NTk4MjM
-    name: XCUIElementTypeStaticText
-    source: System
-  locators:
-  - name: XPATH
-    value: //XCUIElementTypeOther[1]/XCUIElementTypeStaticText[2]
-    priority: 0
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[2]
-    priority: 1
-- id: QRgcVVuCYEWGFKYEUw4S9w
-  name: CRM Fields >
-  type:
-    id: jUwODgyNjAyNzk2NTk4MjM
-    name: XCUIElementTypeStaticText
-    source: System
-  locators:
-  - name: XPATH
-    value: //XCUIElementTypeCell[1]/XCUIElementTypeButton[1]/XCUIElementTypeStaticText
-    priority: 0
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeCell[1]/XCUIElementTypeButton[1]/XCUIElementTypeStaticText[1]
-    priority: 1
-- id: 2lrVSPkcmUKYA-89rOxAiQ
-  name: Insights
-  type:
-    id: jUwODgyNjAyNzk2NTk4MjM
-    name: XCUIElementTypeStaticText
-    source: System
-  locators:
-  - name: ACCESSIBILITYID
-    value: Insights
-    priority: 0
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeStaticText' AND label == 'Insights' AND visible == 1
-    priority: 1
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeStaticText' AND value == 'Insights' AND visible == 1
-    priority: 2
-  - name: XPATH
-    value: //XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText
-    priority: 3
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
-    priority: 4
-- id: 6LBMrqScDE2MdJFR4MPV1Q
-  name: 12 Deals • €56,147,4021
-  type:
-    id: jUwODgyNjAyNzk2NTk4MjM
-    name: XCUIElementTypeStaticText
-    source: System
-  locators:
-  - name: XPATH
-    value: //XCUIElementTypeOther/XCUIElementTypeStaticText[2]
-    priority: 0
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[2]
-    priority: 1
-- id: ZzZJc2lzeES_bZjpFLCHhA
-  name: AI Projection
-  type:
-    id: jUwODgyNjAyNzk2NTk4MjM
-    name: XCUIElementTypeStaticText
-    source: System
-  locators:
-  - name: ACCESSIBILITYID
-    value: AI Projection
-    priority: 0
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeStaticText' AND label == 'AI Projection' AND visible == 1
-    priority: 1
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeStaticText' AND value == 'AI Projection' AND visible == 1
-    priority: 2
-  - name: XPATH
-    value: //XCUIElementTypeScrollView//XCUIElementTypeStaticText[2]
-    priority: 3
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[2]
-    priority: 4
-- id: HNBtoo32qE6_1I_CSqLS-A
-  name: Changes to S2-Buisness Validation Deals
-  type:
-    id: jUwODgyNjAyNzk2NTk4MjM
-    name: XCUIElementTypeStaticText
-    source: System
-  locators:
-  - name: ACCESSIBILITYID
-    value: Changes to S2-Buisness Validation Deals
-    priority: 0
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeStaticText' AND value == 'Changes to S2-Buisness Validation Deals' AND visible == 1
-    priority: 1
-  - name: XPATH
-    value: //XCUIElementTypeCell[3]//XCUIElementTypeStaticText[1]
-    priority: 2
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[3]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
-    priority: 3
-- id: KsAXRUB5Z0CaR5sfBqMICA
-  name: Changes to S2-Buisness Validation Deals1
-  type:
-    id: jUwODgyNjAyNzk2NTk4MjM
-    name: XCUIElementTypeStaticText
-    source: System
-  locators:
-  - name: XPATH
-    value: //XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
-    priority: 0
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
-    priority: 1
-- id: ikcydZIEMkeFxr5PpA1kjw
-  name: TOTAL
-  type:
-    id: jUwODgyNjAyNzk2NTk4MjM
-    name: XCUIElementTypeStaticText
-    source: System
-  locators:
-  - name: XPATH
-    value: //XCUIElementTypeOther[4]/XCUIElementTypeOther/XCUIElementTypeStaticText[2]
-    priority: 0
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[2]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[4]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[2]
-    priority: 1
-- id: ciX1Qj8aHE6y7yMpPtzggQ
-  name: Overdue Deals (Sales Rep)
-  type:
-    id: jUwODgyNjAyNzk2NTk4MjM
-    name: XCUIElementTypeStaticText
-    source: System
-  locators:
-  - name: XPATH
-    value: //XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
-    priority: 0
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[1]/XCUIElementTypeCollectionView[1]/XCUIElementTypeCell[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
-    priority: 1
 projectParameters: []
 addons:
 - id: 3nqfr8Djt0KB-sz43jU-0g
