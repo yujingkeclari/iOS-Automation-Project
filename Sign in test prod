@@ -1,0 +1,54 @@
+id: z1dFMxdeKU6ItQunVKjcJw
+projectId: VgCKwk5ni0mrO8Ujsd9vpg
+projectName: iOS Automation Project
+created: 2022-04-26T20:48:56.1096679Z
+protocol: 1
+tests:
+- id: cvWsl0idEkiKMh8BfrLI4A
+  name: Sign in test prod
+  description: ''
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 0.1
+  creationDate: 2022-04-26T20:48:56.0000000
+  modificationDate: 2022-04-26T20:48:56.0000000
+  settings:
+    automationAssistant: true
+    appId: -MrjXC6kjUavUDebxiVQSg
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: -MrjXC6kjUavUDebxiVQSg
+    name: clari0426
+    platform: iOS
+    hash: 17fa4d1d380ebe011d1bd620659e9344
+  steps:
+  - id: NcbgjUDan0S613OERjUy1A
+    comments: Clear application data and restart (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 1b89acc3-5003-4ae6-a8c1-c1732e09ef45
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements: []
+projectParameters: []
+addons: []
