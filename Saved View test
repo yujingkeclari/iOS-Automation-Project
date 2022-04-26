@@ -1,7 +1,7 @@
-id: wPmB-juSIESVTccoGTt-fw
+id: 29bnb6t2VkmLVNBIu0kFhg
 projectId: VgCKwk5ni0mrO8Ujsd9vpg
 projectName: iOS Automation Project
-created: 2022-04-14T20:29:32.1704329Z
+created: 2022-04-26T20:14:41.6363786Z
 protocol: 1
 tests:
 - id: RMPIBGm2w02v4F5OVdaOyw
@@ -189,7 +189,7 @@ auxTests:
   driverType: Appium_iOS
   version: 0.1
   creationDate: 2021-09-24T07:05:16.0000000
-  modificationDate: 2022-04-14T20:29:27.0000000
+  modificationDate: 2022-04-26T20:03:17.0000000
   settings:
     automationAssistant: true
     deviceId: 1BF1C370-5AF6-4620-8996-583CAE9BD00A
@@ -264,7 +264,7 @@ auxTests:
     validations: []
     contexts: []
   - id: 4bvw1PVyh06WRMIFYyy8EQ
-    enabled: true
+    enabled: false
     invertResult: false
     order: 4
     repeat: 1
@@ -283,10 +283,30 @@ auxTests:
     conditions: []
     validations: []
     contexts: []
-  - id: n_ZUNlVFA0CEFRUgy9-24g
+  - id: bBO1z_LMkEqcJrmq52rPzA
     enabled: true
     invertResult: false
     order: 5
+    repeat: 1
+    type: Action
+    elementId: LEPyCtoSREW40z4kuR2Qcg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: n_ZUNlVFA0CEFRUgy9-24g
+    enabled: true
+    invertResult: false
+    order: 6
     repeat: 1
     type: Action
     elementId: vULM008qoEelAro0fJkTwQ
@@ -306,7 +326,7 @@ auxTests:
   - id: c_G_3KIAYEy4lDo6HwbKkw
     enabled: true
     invertResult: false
-    order: 6
+    order: 7
     repeat: 1
     type: Action
     elementId: vULM008qoEelAro0fJkTwQ
@@ -329,7 +349,7 @@ auxTests:
   - id: HcwWnvQ6hkuu7bda__Ktyw
     enabled: true
     invertResult: false
-    order: 7
+    order: 8
     repeat: 1
     type: Action
     elementId: KtA4FiUqFUCPrELuY5bcJQ
@@ -349,7 +369,7 @@ auxTests:
   - id: vAk5SRqvj0qUeFAze8vE5A
     enabled: true
     invertResult: false
-    order: 8
+    order: 9
     repeat: 1
     type: Action
     elementId: wZqSXKIqAU2dVyeazU4aqg
@@ -369,7 +389,7 @@ auxTests:
   - id: 3DMOE3Qse0C4h3yiOU1weQ
     enabled: true
     invertResult: false
-    order: 9
+    order: 10
     repeat: 1
     type: Action
     elementId: JrUBgYqdN0-01bMpcfkDyA
@@ -389,7 +409,7 @@ auxTests:
   - id: xC1Ac_1XE0mWXej-c0vuag
     enabled: true
     invertResult: false
-    order: 10
+    order: 11
     repeat: 1
     type: Action
     elementId: JrUBgYqdN0-01bMpcfkDyA
@@ -412,7 +432,7 @@ auxTests:
   - id: eAgfIbJBWkOxUQJVbPktkg
     enabled: true
     invertResult: false
-    order: 11
+    order: 12
     repeat: 1
     type: Action
     elementId: rV5LuQFyvkCJOk96jJmlWw
@@ -432,7 +452,7 @@ auxTests:
   - id: u6kdbISG20eir-viDrqKMA
     enabled: true
     invertResult: false
-    order: 12
+    order: 13
     repeat: 1
     type: Action
     elementId: 5G5ssocj-kexlrwcd2X6ow
@@ -556,6 +576,25 @@ elements:
     priority: 2
   - name: XPATH
     value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeAlert[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeButton[1]
+    priority: 3
+- id: LEPyCtoSREW40z4kuR2Qcg
+  name: Production
+  type:
+    id: jUwODgyNjAyNzk2NTk3NjY
+    name: XCUIElementTypeButton
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: Production
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeButton' AND label == 'Production' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeOther[5]/XCUIElementTypeButton
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeAlert[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[5]/XCUIElementTypeButton[1]
     priority: 3
 - id: vULM008qoEelAro0fJkTwQ
   name: Login Email Address
